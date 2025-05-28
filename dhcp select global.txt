@@ -1,0 +1,6 @@
+[R]dhcp enable
+[R-g0/0/1]ip add 10.1.1.1 24
+[R-g0/0/1]dhcp select global
+[R]ip pool for-dhcp
+[R-ip-pool-for-dhcp]network 10.1.1.0 mask 24
+[R-ip-pool-for-dhcp]gateway-list 10.1.1.1
