@@ -4,3 +4,5 @@
 [R]ip pool for-dhcp
 [R-ip-pool-for-dhcp]network 10.1.1.0 mask 24
 [R-ip-pool-for-dhcp]gateway-list 10.1.1.1
+[R-ip-pool-for-dhcp]dns-list 8.8.8.8
+[R-ip-pool-for-dhcp]lease day 1
