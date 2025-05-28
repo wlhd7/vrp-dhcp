@@ -1,0 +1,4 @@
+[R]dhcp enable
+[R-g0/0/1]ip add 10.1.1.1 24
+[R-g0/0/1]dhcp select interface
+[R-g0/0/1]dhcp server dns-list 8.8.8.8
